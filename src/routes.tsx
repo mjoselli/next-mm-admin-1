@@ -6,6 +6,7 @@ import {
   MdLock,
   MdOutlineShoppingCart,
   MdProductionQuantityLimits,
+  MdAttachMoney,
 } from 'react-icons/md';
 
 // Admin Imports
@@ -77,6 +78,17 @@ const routes: IRoute[] = [
       />
     ),
   },
+  {
+    name: 'Bridge',
+    layout: '/admin',
+    path: '/bridge',
+    icon: <Icon 
+          as={MdAttachMoney} 
+          width="20px" 
+          height="20px" color="inherit" 
+          />,
+    secondary: true
+  }
 ];
 
 export default routes;
