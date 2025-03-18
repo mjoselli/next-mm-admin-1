@@ -5,6 +5,7 @@ import {
   MdHome,
   MdLock,
   MdOutlineShoppingCart,
+  MdProductionQuantityLimits,
 } from 'react-icons/md';
 
 // Admin Imports
@@ -62,6 +63,19 @@ const routes: IRoute[] = [
     layout: '/rtl',
     path: '/rtl-default',
     icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
+  },
+  {
+    name: 'Products',
+    layout: '/rtl',
+    path: '/rtl-default',
+    icon: (
+      <Icon
+        as={MdProductionQuantityLimits}
+        width="20px"
+        height="20px"
+        color="inherit"
+      />
+    ),
   },
 ];
 
